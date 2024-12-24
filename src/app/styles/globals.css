@@ -1,0 +1,121 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #d3e3ae;
+}
+
+header {
+  width: calc(100% - 20px);
+  padding: 10px;
+  box-shadow: 3px 1px 20px 0px #5d723c;
+  display: flex;
+  justify-content: space-between;
+  background: #465229;
+  color: white;
+  position: fixed;
+  z-index: 1;
+}
+
+header > h2 {
+  font-family: monospace;
+}
+
+footer {
+  width: 100%;
+  padding: 15px 0px;
+  text-align: center;
+}
+
+.mainbody {
+  width: calc(100% - 30px);
+  padding: 15px;
+  position: relative;
+    top: 45px;
+
+}
+
+.login {
+  display: flex;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.login > img {
+  max-width: 500px;
+  max-height: 400px;
+}
+
+.btn {
+  width: 80px;
+  line-height: 20px;
+  box-shadow: inset 2px 2px 20px 0px #f6ff63;
+}
+
+.loginfooter {
+  text-align: right;
+}
+
+/*Comman Lib*/
+
+.flex {
+  display: flex;
+}
+
+.flex-dir-col {
+  flex-direction: column;
+}
+
+.justCntCenter {
+  justify-content: center;
+}
+
+.alignItem {
+  align-items: center;
+}
+
+.gap5 {
+  gap: 5px;
+}
+
+fieldset {
+  display: inline-block;
+  padding: 5px;
+}
+
+/* ERROR MES*/
+.error {
+  font-size: 13px;
+  color: red;
+}
+
+/*input*/
+
+.inputText {
+  width: 290px;
+  line-height: 25px;
+  padding: 0px 5px;
+  margin: 10px 0px;
+  font-size: 15px;
+  outline-color: rgba(44, 153, 243, 0.37);
+}
+
+.seperator {
+  padding: 0px 15px;
+}
+
+.divider {
+  width: 135px;
+  display: inline-block;
+}
+
+.selectElement {
+  width: 303px;
+  height: 30px;
+  margin: 10px 0px;
+}
